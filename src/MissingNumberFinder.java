@@ -34,18 +34,18 @@ public class MissingNumberFinder {
 
     public static void main(String[] args) { // Основной метод для тестирования;
         int[] arr1 = {5, 0, 1, 3, 2};
-        System.out.println(findMissingNumber(arr1)); // Тест 1: Пропущенное число в середине;
+        System.out.println(findMissingNumber(arr1)); // Тест № 1: Пропущенное число в середине;
         int[] arr2 = {7, 9, 10, 11, 12};
-        System.out.println(findMissingNumber(arr2)); // Тест 2: Пропущенное число в начале диапазона;
+        System.out.println(findMissingNumber(arr2)); // Тест № 2: Пропущенное число в начале диапазона;
         int[] arr3 = {1, 2, 4, 5, 6};
-        System.out.println(findMissingNumber(arr3)); // Тест 3: Пропущенное число 3;
+        System.out.println(findMissingNumber(arr3)); // Тест № 3: Пропущенное число 3;
         int[] arr4 = {0, 1, 2, 3};
-        System.out.println(findMissingNumber(arr4)); // Тест 4: Последовательность без пропусков;
+        System.out.println(findMissingNumber(arr4)); // Тест № 4: Последовательность без пропусков;
         int[] arr5 = {2, 3, 4, 5, 6};
-        System.out.println(findMissingNumber(arr5)); // Тест 5: Пропущено минимальное число;
+        System.out.println(findMissingNumber(arr5)); // Тест № 5: Пропущено минимальное число;
         int[] arr6 = {1};
-        System.out.println(findMissingNumber(arr6)); // Тест 6: Один элемент в массиве;
+        System.out.println(findMissingNumber(arr6)); // Тест № 6: Один элемент в массиве;
         int[] arr7 = {1, 2, 3, 4};
-        System.out.println(findMissingNumber(arr7)); //Тест 7: Пустой массив;
+        System.out.println(findMissingNumber(arr7)); //Тест № 7: Пустой массив;
     }
 }
